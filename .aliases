@@ -1,0 +1,18 @@
+alias d="\date"
+alias ggg="\screen -ls"
+alias gg="\screen -r"
+alias g="\fg"
+alias h="\head"
+alias j="\jobs"
+#alias k="\make"
+alias les="\less"
+alias lss="\less"
+alias ll="\ls -hAl"
+#alias l="\ls -hAl"
+alias t="\tail"
+alias up="\uptime"
+alias vim="\vim -n"
+
+# macos:
+alias sha256sum="\shasum -a 256"
+alias sha512sum="\shasum -a 512"
