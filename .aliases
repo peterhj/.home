@@ -2,7 +2,6 @@ alias d="\date"
 alias ggg="\screen -ls"
 alias gg="\screen -r"
 #alias gg="\screen -RR"
-alias g="\fg"
 alias grpe="\grep"
 alias h="\head"
 alias j="\jobs"
@@ -19,3 +18,17 @@ alias vim="\vim -n"
 # macos:
 alias sha256sum="\shasum -a 256"
 alias sha512sum="\shasum -a 512"
+
+# bash:
+alias g="\fg"
+
+# zsh:
+g () {
+  if [ -n "$1" ]; then
+    fg "%$1"
+  else
+    fg
+  fi
+}
+
+alias f="g"
