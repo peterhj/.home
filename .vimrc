@@ -22,7 +22,4 @@ set smartindent
 au BufNewFile,BufRead Makefile* setlocal shiftwidth=0 softtabstop=0 noexpandtab
 au FileType python setlocal shiftwidth=4 softtabstop=4
 
-" macos:
-nnoremap <silent> <Esc> :noh<CR><Esc>
-" TODO: linux:
-" nnoremap <silent> <Esc> :noh<CR>:call feedkeys("\<Esc>")<CR>
+nnoremap <silent> <Esc> :noh<CR><C-\><C-n>
