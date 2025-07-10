@@ -1,0 +1,2 @@
+setopt interactive_comments
+unsetopt extended_glob
